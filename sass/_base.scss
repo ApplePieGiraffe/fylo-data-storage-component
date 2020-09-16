@@ -1,0 +1,40 @@
+:root {
+    --color-pale-blue: hsl(243, 100%, 93%);
+    --color-greyish-blue: hsl(229, 7%, 55%);
+    --color-dark-blue: hsl(228, 56%, 26%);
+    --color-very-dark-blue: hsl(229, 57%, 11%);
+    --color-pale-orange: hsl(6, 100%, 80%);
+    --color-pink: hsl(335, 100%, 65%);
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 50%;
+
+    @media only screen and (max-width: 1200px) {
+        font-size: 45%;
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+strong {
+    font-weight: 500;
+}

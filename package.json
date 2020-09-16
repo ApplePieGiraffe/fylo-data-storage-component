@@ -1,0 +1,16 @@
+{
+  "name": "fylo-data-storage-component",
+  "version": "1.0.0",
+  "description": "A challenge from Frontend Mentor",
+  "main": "index.html",
+  "scripts": {
+    "watch:sass": "node-sass --watch ./sass/main.scss ./css/style.css"
+  },
+  "keywords": [],
+  "author": "Joshua Woodson",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {}
+}

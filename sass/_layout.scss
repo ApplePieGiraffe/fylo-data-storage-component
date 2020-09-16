@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 100vh;
+
+    background: url(../img/bg-desktop.png) var(--color-very-dark-blue);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media only screen and (max-width: 600px) {
+        background: url(../img/bg-mobile.png) var(--color-very-dark-blue);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+main {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: max-content;
+    width: 100%;
+    padding: 0 15%;
+
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.menu, 
+.info {
+    margin: 2rem;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 4rem;
+    padding: 0 3rem;
+    font-size: 11px; 
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+
+    a {
+        color: hsl(228, 45%, 62%);
+    }
+}
